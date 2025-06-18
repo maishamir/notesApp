@@ -1,11 +1,14 @@
-import React from 'react'
+import ThemeToggle from "../ThemeToggle/ThemeToggle";
 
-type Props = {}
+type Props = {};
 
 function Header({}: Props) {
   return (
-    <div>Header</div>
-  )
+    <div>
+      Header
+      <ThemeToggle />
+    </div>
+  );
 }
 
-export default Header
+export default Header;

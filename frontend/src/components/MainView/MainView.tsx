@@ -1,11 +1,15 @@
 import React from 'react'
 import SideBar from '../SideBar/SideBar'
+import ViewArea from '../ViewArea/ViewArea'
 
 type Props = {}
 
 function MainView({}: Props) {
   return (
-    <div>MainView</div>
+    <div>
+      <SideBar />
+      <ViewArea />
+    </div>
   )
 }
 

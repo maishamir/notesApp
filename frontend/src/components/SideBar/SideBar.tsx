@@ -1,10 +1,14 @@
+import NewNoteButton from "../NewNoteButton/NewNoteButton";
 
-type Props = {}
+type Props = {};
 
 function SideBar({}: Props) {
   return (
-    <div>SideBar</div>
-  )
+    <div>
+      SideBar
+      <NewNoteButton />
+    </div>
+  );
 }
 
-export default SideBar
+export default SideBar;
