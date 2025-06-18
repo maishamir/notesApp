@@ -1,5 +1,4 @@
-import React from 'react'
-
+import "./NewNoteButton.scss";
 type Props = {}
 
 function NewNoteButton({}: Props) {

@@ -1,5 +1,4 @@
-import React from 'react'
-
+import "./NotePreview.scss";
 type Props = {}
 
 function NotePreview({}: Props) {

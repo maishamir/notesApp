@@ -1,5 +1,5 @@
-import React from 'react'
 import NotePreview from '../NotePreview/NotePreview'
+import "./NoteList.scss"
 
 type Props = {}
 

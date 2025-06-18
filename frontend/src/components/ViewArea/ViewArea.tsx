@@ -1,5 +1,4 @@
-import React from 'react'
-
+import "./ViewArea.scss";
 type Props = {}
 
 function ViewArea({}: Props) {

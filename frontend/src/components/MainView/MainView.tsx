@@ -1,6 +1,6 @@
-import React from 'react'
 import SideBar from '../SideBar/SideBar'
 import ViewArea from '../ViewArea/ViewArea'
+import "./MainView.scss"
 
 type Props = {}
 

@@ -1,3 +1,4 @@
+import "./SearchInput.scss"
 type Props = {}
 
 function SearchInput({}: Props) {
