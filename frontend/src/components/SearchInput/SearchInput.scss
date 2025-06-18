@@ -1,0 +1,19 @@
+@use "../../styles/partials/globals" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.searchInput {
+  &__input {
+    padding: $spacing16;
+    width: 40vw;
+    border-radius: 1rem;
+    border: none;
+    border: 1px solid lightgray;
+
+    &:focus {
+      // outline: none;
+      outline: 1px solid rgb(210, 209, 209);
+    }
+  }
+}

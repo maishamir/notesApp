@@ -4,7 +4,11 @@
 @use "../../styles/partials/mixins" as *;
 
 .header {
+  
+  padding: $spacing20;
+  // position: absolute;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }

@@ -1,19 +1,22 @@
-import { useState } from "react"
-import "./ThemeToggle.scss"
+import { useState } from "react";
+import "./ThemeToggle.scss";
 
-type Props = {}
+type Props = {};
 
-function ThemeToggle({ }: Props) {
-  
-  const [theme, setTheme] = useState("dark")
+function ThemeToggle({}: Props) {
+  const [theme, setTheme] = useState("dark");
+
+  function handleToggle() {
+    setTheme(prevTheme => prevTheme === 'dark' ? 'light' : 'dark')
+  }
 
   return (
-    <div className="themeToggle__btnContainer">
-      <button type="button" className="themeToggle_btn">
-        { theme === "light" ? `🌙 `: `🌞 ` }
+    <div className="themeToggle">
+      <button type="button" className="themeToggle__button" onClick={handleToggle}>
+        <p className="themeToggle__button-icon">{theme === "light" ? `🌙 ` : `🌞 `}</p>
       </button>
     </div>
-  )
+  );
 }
 
-export default ThemeToggle
+export default ThemeToggle;
