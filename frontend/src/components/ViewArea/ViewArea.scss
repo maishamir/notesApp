@@ -1,0 +1,10 @@
+@use "../../styles/partials/globals" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.viewArea {
+  min-height: 100vh;
+  background-color: lavender;
+  flex: 1;
+}

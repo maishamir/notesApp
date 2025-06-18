@@ -6,7 +6,7 @@ type Props = {};
 
 function Header({}: Props) {
   return (
-    <div>
+    <div className="header">
       <h1>Eira</h1>
       <SearchInput />
       <ThemeToggle />

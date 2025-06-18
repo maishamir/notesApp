@@ -1,10 +1,12 @@
-import "./SearchInput.scss"
-type Props = {}
+import "./SearchInput.scss";
+type Props = {};
 
 function SearchInput({}: Props) {
   return (
-    <div>SearchInput</div>
-  )
+    <div className="searchInput">
+      <input type="text" name="" id="" className="searchInput__input" placeholder="Search notes" />
+    </div>
+  );
 }
 
-export default SearchInput
+export default SearchInput;

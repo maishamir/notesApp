@@ -3,7 +3,7 @@ type Props = {}
 
 function ViewArea({}: Props) {
   return (
-    <div>ViewArea</div>
+    <div className="viewArea"><h1>View Area</h1></div>
   )
 }
 

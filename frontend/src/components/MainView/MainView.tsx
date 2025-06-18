@@ -6,7 +6,7 @@ type Props = {}
 
 function MainView({}: Props) {
   return (
-    <div>
+    <div className='mainView'>
       <SideBar />
       <ViewArea />
     </div>

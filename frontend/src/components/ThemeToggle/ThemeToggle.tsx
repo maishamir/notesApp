@@ -1,10 +1,18 @@
+import { useState } from "react"
 import "./ThemeToggle.scss"
 
 type Props = {}
 
-function ThemeToggle({}: Props) {
+function ThemeToggle({ }: Props) {
+  
+  const [theme, setTheme] = useState("dark")
+
   return (
-    <div>ThemeToggle</div>
+    <div className="themeToggle__btnContainer">
+      <button type="button" className="themeToggle_btn">
+        { theme === "light" ? `🌙 `: `🌞 ` }
+      </button>
+    </div>
   )
 }
 

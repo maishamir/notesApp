@@ -6,7 +6,7 @@ type Props = {};
 
 function SideBar({}: Props) {
   return (
-    <div>
+    <div className="sidebar">
       SideBar
       <NoteList />
       <NewNoteButton />
