@@ -1,10 +1,13 @@
 import React from 'react'
+import NotePreview from '../NotePreview/NotePreview'
 
 type Props = {}
 
 function NoteList({}: Props) {
   return (
-    <div>NoteList</div>
+    <div>NoteList
+      <NotePreview />
+    </div>
   )
 }
 
