@@ -7,9 +7,7 @@ type Props = {};
 function SideBar({}: Props) {
   return (
     <div className="sidebar">
-      SideBar
       <NoteList />
-      <NewNoteButton />
     </div>
   );
 }

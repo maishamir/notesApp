@@ -1,0 +1,9 @@
+@use "../../styles/partials/globals" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/mixins" as *;
+
+.notePreview {
+  background: white;
+  padding: 1rem;
+}

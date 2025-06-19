@@ -4,6 +4,9 @@
 @use "../../styles/partials/variables" as *;
 
 .searchInput {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
   &__input {
     padding: $spacing16;
     width: 40vw;

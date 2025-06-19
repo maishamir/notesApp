@@ -1,0 +1,23 @@
+@use "../../styles/partials/globals" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/mixins" as *;
+
+.newNoteButton {
+  &__button {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: #047ad4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.175s;
+    overflow-y: scroll;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #0167b6;
+    }
+  }
+}

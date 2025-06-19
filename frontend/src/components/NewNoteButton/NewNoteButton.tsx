@@ -1,10 +1,14 @@
 import "./NewNoteButton.scss";
-type Props = {}
+import AddIcon from "@mui/icons-material/Add";
 
-function NewNoteButton({}: Props) {
+function NewNoteButton() {
   return (
-    <div>NewNoteButton</div>
-  )
+    <div className="newNoteButton">
+      <div className="newNoteButton__button">
+        <AddIcon fontSize="medium" sx={{ color: "white" }} />
+      </div>
+    </div>
+  );
 }
 
-export default NewNoteButton
+export default NewNoteButton;

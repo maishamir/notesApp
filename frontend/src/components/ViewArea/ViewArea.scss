@@ -4,7 +4,8 @@
 @use "../../styles/partials/variables" as *;
 
 .viewArea {
-  min-height: 100vh;
+  height: 100vh;
+  overflow-y: scroll;
   background-color: lavender;
   flex: 1;
   padding: $spacing20;

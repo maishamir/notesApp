@@ -7,7 +7,7 @@ type Props = {}
 
 function NoteList({}: Props) {
   return (
-    <div>NoteList
+    <div className='notelist'>
       {notes.map((note: Note) => (
         <NotePreview key={note.id} {...note} />
       ))}
